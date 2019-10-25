@@ -48,6 +48,12 @@
             android:layout_height="wrap_content"
             android:onClick="goToMessagingActivity"
             android:text="Go to Messaging Activity" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToMessagingActivityEff"
+            android:text="Go to Messaging Effective Activity" />
     </LinearLayout>
 
 </androidx.core.widget.NestedScrollView>

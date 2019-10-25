@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".messaging.MessagingActivity"></activity>
+        <activity android:name=".messaging.MessagingActivity"/>
+        <activity android:name=".messagingeff.MessagingActivityEff"/>
         <activity android:name=".bindingadapter.SimpleBindingActivity" />
         <activity android:name=".inflating.InflatingActivity" />
         <activity

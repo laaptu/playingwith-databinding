@@ -7,6 +7,7 @@ import android.view.View
 import average.laaptu.databinding.bindingadapter.SimpleBindingActivity
 import average.laaptu.databinding.inflating.InflatingActivity
 import average.laaptu.databinding.messaging.MessagingActivity
+import average.laaptu.databinding.messagingeff.MessagingActivityEff
 import average.laaptu.databinding.simple.SimpleActivity
 import average.laaptu.databinding.simpledynamic.SimpleDynamicActivity
 import average.laaptu.databinding.simpleobservable.SimpleObservableActivity
@@ -40,5 +41,9 @@ class MainActivity : AppCompatActivity() {
 
     fun goToMessagingActivity(view: View) {
         startActivity(Intent(this, MessagingActivity::class.java))
+    }
+
+    fun goToMessagingActivityEff(view: View) {
+        startActivity(Intent(this, MessagingActivityEff::class.java))
     }
 }
